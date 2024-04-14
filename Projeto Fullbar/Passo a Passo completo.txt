@@ -1,0 +1,13 @@
+Passo a Passo feito
+
+1 - Corrigidas as discrepâncias da tabela SQL para que tenha informações corretas para o tratamento de pontos utilizando o seguinte comando dml:
+
+UPDATE usuario
+SET cargo_id = 3
+WHERE usuario_nome = 'Gabriel'
+
+2 - criada a função de leitura do CSV
+
+3 - criada e deletada a função de criação de tabela, pois se tornou redundante
+
+4 - 

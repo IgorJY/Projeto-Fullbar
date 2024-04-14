@@ -1,0 +1,20 @@
+Passo a passo da lógica
+
+1 - Corrigir as discrepâncias da tabela SQL para que tenha informações corretas para o tratamento de pontos
+
+2 - criar um script para a importação das linhas aprovadas do arquivo csv
+
+3 - criar um algoritmo com as seguintes funções: 
+	- consolidação da quantidade de vendas para cada vendedor
+		- colocar a informação em uma tabela para salvar as informações
+	- consulta do cargo de cada funcionário, e supervisores e gerente na base de dados (knex?)
+	- cálculo da quantidade de pontos de cada funcionário com base na quantidade de vendas e cargo
+		- salvar a informação na tabela?
+	- cálculo da quantidade de pontos de cada supervisores de acordo com a pontuação dos funcionários
+		- salvar a informação na tabela?
+	- cálculo da quantidade de pontos de cada gerente de acordo com a pontuação dos supervisores
+		- salvar a informação na tabela?
+
+4 - criar os endpoints para a insersão de dados na tabela pontos (knex?)
+
+5 - criar o script para recuperar as informações do servidor e fazer o arquivo 'relatório.sql'
